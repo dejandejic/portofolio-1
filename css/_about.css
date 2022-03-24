@@ -1,0 +1,88 @@
+.contact-form {
+  width: 100%;
+  background: #ffffff;
+  padding: 2.5rem;
+  justify-content: center;
+}
+
+.contact-form span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+form input[type="submit"] {
+  display: inline-block;
+  padding: 0.4rem 2rem;
+  border: 0.2rem solid rgb(0, 0, 0);
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
+}
+
+form input[type="submit"]:hover {
+  color: white;
+  background: #4bb543;
+}
+
+.form-input {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+}
+
+form label span {
+  font-size: 13px;
+  color: #626262;
+  letter-spacing: 0.05em;
+}
+
+form .form-input input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+.form-error {
+  display: none;
+  color: rgb(255, 0, 0);
+  font-size: 11px;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.form-error.active {
+  display: block;
+}
+
+.form-container {
+  background: white;
+  width: 300px;
+  position: relative;
+  text-align: center;
+  margin: 8rem auto;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: black;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
