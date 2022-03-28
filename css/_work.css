@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
 .work-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, auto));
@@ -23,8 +27,12 @@
   margin-bottom: 0.5rem;
   color: white;
   text-align: center;
-  text-decoration: 1px solid #55cfd8 underline;
+  text-decoration: 0.5px solid #55cfd8 underline;
 }
+ul li {
+  list-style-type: square;
+}
+
 .description {
   font-size: 20px;
   color: rgb(255, 255, 255);
