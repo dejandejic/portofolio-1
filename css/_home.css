@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Sacramento&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-.section-title {
+.home-title {
   font-size: 2rem;
   font-weight: 600;
   color: #ffffff;
@@ -28,7 +28,32 @@ body {
   letter-spacing: 2px;
   padding: 2rem;
   margin: 2rem;
+  position: relative;
+  font-family: "Sacramento", cursive;
 }
+.home-title:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #91d0de;
+  position: absolute;
+  left: 240px;
+  top: 50%;
+  z-index: -2;
+}
+.home-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #91d0de;
+  position: absolute;
+  right: 240px;
+  top: 50%;
+  z-index: -2;
+}
+
 .product-box {
   display: block;
   text-align: center;
@@ -75,5 +100,11 @@ p {
 @media (max-width: 991.98px) {
   header {
     padding: 2rem 5%;
+  }
+  .home-title:before {
+    display: none;
+  }
+  .home-title::after {
+    display: none;
   }
 }
