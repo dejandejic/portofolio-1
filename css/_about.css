@@ -1,7 +1,8 @@
 .about-img {
   float: left;
   height: 300px;
-  padding: 2rem;
+  padding: 1.5rem;
+  border-radius: 20%;
 }
 .section-title {
   font-size: 2rem;
@@ -14,8 +15,6 @@
   position: relative;
 }
 .text {
-  width: 100%;
-  margin: 2rem;
   display: inline-block;
 }
 .text p {
@@ -24,6 +23,11 @@
   font-weight: 400;
   max-width: 800px;
 }
+.experience {
+  display: flex;
+  color: #91d0de;
+}
+
 .contact-form {
   width: 100%;
   background: #22444b;

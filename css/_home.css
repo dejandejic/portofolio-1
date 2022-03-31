@@ -29,7 +29,7 @@ body {
   padding: 2rem;
   margin: 2rem;
   position: relative;
-  font-family: "Sacramento", cursive;
+  font-family: "Sacramento", sans-serif;
 }
 .home-title:before {
   content: "";
@@ -64,15 +64,18 @@ body {
 .intro-img {
   border-radius: 50%;
   height: 100px;
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
 p {
   font-size: 30px;
   margin: 1rem;
-  color: aliceblue;
+  color: white;
 }
 .undertext {
   color: white;
   font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
 }
 .button {
   display: inline-block;
