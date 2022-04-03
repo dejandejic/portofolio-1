@@ -13,19 +13,19 @@ function validateForm() {
     event.preventDefault();
 
 
-    if (chechkLength(firstName.value, 4) === true) {
+    if (chechkLength(firstName.value, 2) === true) {
         nameError.style.display = "none";
     }
     else {
         nameError.style.display = "block";
     }
-    if (chechkLength(subject.value, 14) === true) {
+    if (chechkLength(subject.value, 5) === true) {
         subjectError.style.display = "none";
     }
     else {
         subjectError.style.display = "block";
     }
-    if (chechkLength(message.value, 24) === true) {
+    if (chechkLength(message.value, 10) === true) {
         messageError.style.display = "none";
     }
     else {
